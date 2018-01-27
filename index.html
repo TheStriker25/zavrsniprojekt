@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112695221-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-112695221-1');
+</script>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>My Portfolio</title>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="lightbox/css/lightbox.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link href="animate.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<div id="home-page">
+			<a href="#">Home</a>
+		</div>
+		
+		<nav>
+			<ul>
+				<li><a href="#AboutMe">About me</a></li>
+				<li><a href="#MyWorks">My works</a></li>
+				<li><a href="#MySkills">My skills</a></li>
+				<li><a href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="main-wrapper">
+		<section class="main-page fadeInUpBig animated" id="portfolio">
+			<h1>Portfolio</h1>
+		</section>
+		<div class="rectangle fadeInUpBig animated"></div>
+		<br><br><br><br>
+		<section id="about">
+			<section class="main-page fadeInUpBig animated" id="AboutMe">
+				<h1>About me</h1>
+			</section>
+			<br><br>
+			<div class="timeline fadeInUpBig animated">
+				<div class="container left">
+					<div class="content-left">
+						<h2>1996.</h2>
+							<p>Born</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content-right">
+						<h2>2007.</h2>
+							<p>Started Elementary School</p>
+					</div>
+				</div>
+				<div class="container left">
+					<div class="content-left">
+						<h2>2011.</h2>
+							<p>Started High School</p>
+					</div>
+				</div>
+				<div class="container right">
+					<div class="content-right">
+						<h2>2015.</h2>
+							<p>Started University</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br><br><br><br><br><br><br><br>
+		<section id="works">
+			<section class="main-page fadeInUpBig animated" id="MyWorks">
+				<h1>My works</h1>
+			</section>
+			<br>
+			<div class="slideshow-container fadeInUpBig animated">
+
+				<div class="mySlides fade">
+						<img src="img/tattoo.jpg" style="width:100%">
+						<div class="numbertext">1 / 5</div>
+					<div class="text">Black & White</div>
+				</div>
+
+			<div class="mySlides fade">
+					<img src="img/moooo.jpg" style="width:100%">
+					<div class="numbertext">2 / 5</div>
+				<div class="text">Splash</div>
+			</div>
+
+			<div class="mySlides fade">
+					<img src="img/shape.jpg" style="width:100%">
+					<div class="numbertext">3 / 5</div>
+				<div class="text">Tattoo</div>
+			</div>
+			
+			<div class="mySlides fade">
+					<img src="img/Sk8er.jpg" style="width:100%">
+					<div class="numbertext">4 / 5</div>
+				<div class="text">Typography</div>
+			</div>
+			
+			<div class="mySlides fade">
+					<img src="img/art.jpg" style="width:100%">
+					<div class="numbertext">5 / 5</div>
+				<div class="text">Artwork</div>
+			</div>
+  
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 				
+			</div>
+			<br><br><br><br><br><br><br><br>
+			<section class="main-page fadeInUpBig animated" id="MySkills">
+				<h1>My skills</h1>
+			</section>
+			<br>
+			
+			<section class="main-page fadeInUpBig animated" id="Contact">
+				<h1>Contact</h1>
+			</section>
+			<br>
+			
+			<div class="contain" align="center">
+			<form action="">
+				<label for="fname">Name</label>
+					<input type="text" id="fname" placeholder="Type your name and surname">
+				<div id="fok">Fo fok seak ljevu</div>
+				<label for="sub">Subject</label>
+					<input type="text" id="mname" placeholder="Name of the message">
+
+				<label for="mail">E-mail</label>
+					<input type="text" id="e-m" placeholder="Your E-mail">
+				
+				<label for="message">Message</label>
+					<textarea id="msg" placeholder="Your message" style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+			</div>
+			
+			<footer class="foot fadeInUpBig animated">
+				<div>
+				<p id="madeby">Marko Rogina</p>
+				<p id="unin">unin web design</p>
+				</div>
+				<div class="rectangle fadeInUpBig animated"></div>
+			</footer>
+	
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1} 
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none"; 
+		}
+		for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block"; 
+		dots[slideIndex-1].className += " active";
+		}
+	</script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a6cb93c5df45380"></script>
+</body>
+</html>
