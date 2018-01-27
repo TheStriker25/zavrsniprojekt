@@ -610,5 +610,6 @@ footer {
 }
 
 .fb-comments {
-	
+    	margin: auto;
+    	width: 50%;
 }
