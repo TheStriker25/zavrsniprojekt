@@ -669,23 +669,28 @@ input[type=submit]:hover {
 footer {
 	background: url('img/white.jpg') no-repeat;
 	background-position: center center;
-	text-align: center;
-	font-size: 30pt;
 	color: #000;
 	margin-top: -20px;
 	margin-left: 0px;
-	height: 150px;
-	padding-top: 0px;
+	height: 200px;
+	padding-top: 80px;
 }
 
 #unin {
 	text-align: center;
-	font-size: 16pt;
+	font-size: 22pt;
 	text-transform: uppercase;
 }
 
 #madeby {
 	text-align: center;
-	font-size: 16pt;
-	padding-top: 53px;
+	font-size: 22pt;
+	padding-top: 15px;
+}
+
+.rectangle2 {
+	background-color: #333;
+	width: 100%;
+	height: 10px;
+	margin-top: 50px;
 }
