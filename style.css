@@ -687,3 +687,10 @@ footer {
 	font-size: 16pt;
 	padding-top: 53px;
 }
+
+.fb-comments {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
