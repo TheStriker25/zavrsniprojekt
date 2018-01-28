@@ -689,8 +689,5 @@ footer {
 }
 
 .fb-comments {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin-top: 400px;
 }
