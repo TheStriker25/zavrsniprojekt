@@ -644,10 +644,10 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #666;
+    background-color: #222;
     color: #fff;
     padding: 20px 50px;
-	border: 1px solid #666;
+	border: 1px solid #222;
     border-radius: 5px;
     cursor: pointer;
 	font-size: 14pt;
