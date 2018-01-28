@@ -222,6 +222,7 @@ header:hover > nav ul li a {
 #portfolio {
 	background: url('img/white.jpg') no-repeat;
 	background-position: center center;
+	width: 100%;
 	text-align: center;
 	font-size: 30pt;
 	color: #000;
@@ -669,10 +670,11 @@ input[type=submit]:hover {
 footer {
 	background: url('img/white.jpg') no-repeat;
 	background-position: center center;
+	width: 100%;
 	color: #000;
 	margin-top: -20px;
 	margin-left: 0px;
-	height: 200px;
+	height: 170px;
 	padding-top: 80px;
 }
 
