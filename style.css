@@ -639,7 +639,7 @@ input[type=text], select, textarea {
     margin-top: 5px; 
     margin-bottom: 15px; 
     resize: vertical;
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: 'Orbitron', sans-serif;
 }
 
@@ -650,8 +650,9 @@ input[type=submit] {
 	border: 1px solid #222;
     border-radius: 5px;
     cursor: pointer;
-	font-size: 14pt;
+	font-size: 20pt;
 	text-align: center;
+	font-family: 'Orbitron', sans-serif;
 }
 
 input[type=submit]:hover {
@@ -661,7 +662,8 @@ input[type=submit]:hover {
 .contain {
     padding: 30px 50px;
     background-color: #666;
-	width: 92,5%
+	width: 92,5%;
+	font-size: 16pt;
 }
 
 footer {
