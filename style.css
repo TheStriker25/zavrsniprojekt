@@ -278,6 +278,7 @@ h1 {
 	heaight: 50%;
     	margin-left: auto;
     	margin-right: auto;
+	margin-top: 100px;
 }
 
 @media all and (max-width: 1242px) {
@@ -285,8 +286,6 @@ h1 {
 		position: relative;
 		width: 40%;
 		heaight: 50%;
-    		margin-left: auto;
-   		margin-right: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 425px;
@@ -298,8 +297,6 @@ h1 {
 		position: relative;
 		width: 40%;
 		heaight: 50%;
-    		margin-left: auto;
-    		margin-right: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 1390px;
