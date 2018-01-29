@@ -265,36 +265,43 @@ h1 {
 }
 
 .line {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
+	position: relative;
+	width: 40%;
+	heaight: 50%;
+   	margin-left: auto;
+    	margin-right: auto;
 }
 
 .line2 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-	margin-top: 100px;
+	position: relative;
+	width: 40%;
+	heaight: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 
 @media all and (max-width: 1242px) {
 	.line2 {
-		display: block;
+		position: relative;
+		width: 40%;
+		heaight: 50%;
+    		margin-left: auto;
+   		margin-right: auto;
 		margin-left: auto;
 		margin-right: auto;
-		width: 550px;
 		margin-top: 425px;
 }
 }
 
 @media all and (max-width: 813px) {
 	.line2 {
-		display: block;
+		position: relative;
+		width: 40%;
+		heaight: 50%;
+    		margin-left: auto;
+    		margin-right: auto;
 		margin-left: auto;
 		margin-right: auto;
-		width: 550px;
 		margin-top: 1390px;
 }
 }
@@ -660,9 +667,13 @@ input[type=submit]:hover {
 }
 
 .contain {
-    padding: 30px 50px;
-    background-color: #666;
-	width: 92,5%;
+    	padding: 30px 50px;
+    	background-color: #666;
+	margin: 0 auto; 
+	width: 250px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 70%;
 	font-size: 16pt;
 }
 
